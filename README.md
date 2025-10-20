@@ -1,6 +1,6 @@
 # DIY Flight Simulator Controller PCB
 
-This repository contains the Gerber files for the custom PCB designed for the "Build Your Own Low-Cost, Extensible Flight Sim Controller" project.
+This repository contains the arduino .ino code base and the Gerber files for the custom PCB designed for the "Build Your Own Low-Cost, Extensible Flight Sim Controller" project.
 
 **Find the complete build guide, 3D-printable files, and software setup instructions on Instructables:**
 **[https://www.instructables.com/Build-Your-Own-Low-Cost-Extensible-Flight-Sim-Cont/](https://www.instructables.com/Build-Your-Own-Low-Cost-Extensible-Flight-Sim-Cont/)**
@@ -19,16 +19,16 @@ This project, created by **hale_b0b**, is a fully DIY flight simulator yoke and 
 
 ## About This Repository
 
-This repository holds the PCB design files (**Gerber files**) for the controller's main connection board. This board is not the microcontroller itself, but rather a "shield" or breakout board for an **Arduino Nano**.
+This repository holds the arduino .ino code base and the PCB design files (**Gerber files**) for the controller's main connection board. This board is not the microcontroller itself, but rather a "shield" or breakout board for an **Arduino Micro Pro**.
 
 ### PCB Purpose
 The PCB is designed to simplify the wiring process. It provides a clean way to connect:
-* An **Arduino Nano** (or compatible clone).
+* An **Arduino Micro Pro** (or compatible clone).
 * **5 Analog Inputs:** For potentiometers (e.g., yoke pitch, yoke roll, throttle, flaps, rudder).
 * **5 Digital Inputs:** For pushbuttons (with built-in pulldown resistors).
 
 ### Files
-* `Pro_Micro_Rudder_v1_0_4` / `flight_yoke_micro_pro`: KiCad project files and Gerber outputs for different versions of the board.
+* `Pro_Micro_Rudder_v1_0_4` / `flight_yoke_micro_pro`: the arduino Pro Micro .ino code base.
 * `*.zip`: These zip archives (e.g., `Flight Yoke v3-.zip`) contain the ready-to-use Gerber files for ordering.
 
 ## How to Use
