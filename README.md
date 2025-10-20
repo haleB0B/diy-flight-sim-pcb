@@ -7,7 +7,7 @@ This repository contains the arduino .ino code base and the Gerber files for the
 
 ## About This Project
 
-This project, created by **hale_b0b**, is a fully DIY flight simulator yoke and rudder system. It is designed to be low-cost, 3D-printable, and extensible. The system uses an Arduino Nano and potentiometers to read control inputs.
+This project, is about a fully DIY flight simulator yoke and rudder system. It is designed to be low-cost, 3D-printable, and extensible. The system uses an Arduino Nano and potentiometers to read control inputs.
 
 ### Key Features
 * **Low-Cost:** Built with common components and 3D-printed parts.
