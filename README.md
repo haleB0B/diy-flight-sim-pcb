@@ -13,6 +13,7 @@ This project, is about a fully DIY flight simulator yoke and rudder system. It i
 * **Low-Cost:** Built with common components and 3D-printed parts.
 * **Extensible:** The design allows for adding more controls like levers for throttle, flaps, and more.
 * **Flexible Software:** Can be used with:
+    * ** native HID of Arduino Pro Micro
     * **MobiFlight:** For a direct interface with MSFS 2020.
     * **vJoy & vJoySerialFeeder:** To act as a standard virtual joystick for any game.
 * **Custom PCB:** This simple PCB makes wiring the components clean and reliable.
